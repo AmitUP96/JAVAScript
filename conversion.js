@@ -2,9 +2,9 @@
 // String,Number,Boolean,null,undefined,Symbol,BigInt
 
 
-let num1 = Symbol("123")
-let num2 = Symbol("123")
-console.log(num1==num2)
+// let num1 = Symbol("123")
+// let num2 = Symbol("123")
+// console.log(num1==num2)
 
 //nonPrimitive   reference type
 // Array,Objects,Functions
