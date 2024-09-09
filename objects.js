@@ -66,16 +66,32 @@
 //************************************************************ */
 
 //destructuring
-let course = { 
-    coursename : "javaScript",
-    price : 239,
-    courseInstructor : "Amit Singh"
-}
-// course.courseInstructor
-const {courseInstructor : Ins} = course. // : Ins is optional
+// let course = { 
+//     coursename : "javaScript",
+//     price : 239,
+//     courseInstructor : "Amit Singh"
+// }
+// // course.courseInstructor
+// const {courseInstructor : Ins} = course. // : Ins is optional
 
-//console.log(courseInstructor)
+// //console.log(courseInstructor)
 
-console.log(Ins)
+// console.log(Ins)
 
 // pahle files xml me hoti thi ab JSON me 
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// let user ={
+//     username : "Amit",
+//     age : 56,
+// // this current context ko print karta h
+//     welcomemassage : function(){
+//         console.log(`${this.username}, welcome to website`)
+//     }
+// }
+// user.welcomemassage()
+
+// agar ham alag se
+// console.log(this)
+// likhte h to browser me window likh kr aata h  or yahan empty object
