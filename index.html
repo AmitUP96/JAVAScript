@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM </title>
+    <style>
+        .bg-black{
+            background-color: rgb(6, 2, 2);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div class ="parent">
+        <div class="class">Monday</div>
+        <div class="class">Tuesday</div>
+        <div class="class">Wednesday</div>
+        <div class="class">Thursday</div>
+    </div>
+    
+</body>
+<script>
+    //  const parent = document.querySelector(".parent")
+    //  console.log(parent)
+    //  console.log(parent.children)
+    //  console.log(parent.children[1].innerHTML)
+
+    //  for (let i = 0; i < parent.children.length; i++) {
+    //     console.log(parent.children[i].innerHTML)
+    //  }
+
+    // parent.children[0].style.color = "yellow"
+
+    // console.log(parent.firstElementChild)
+    // console.log(parent.lastElementChild)
+
+    // childnotes(nodelist)
+    // console.log("NODES : ", parent.childNodes)
+
+// How to add element
+
+</script>
+
+
+<script>
+// How to add element
+     let div = document.createElement('div')
+   console.log(div)
+   div.className = "main"
+   div.id = "myId"
+   // custom attributes add krna
+   div.setAttribute("title", "parentTitle")
+  div.style.backgroundColor = "green"
+  div.innerHTML = "Amit Bhai Kaise Ho ?"
+  //Attachment with document
+  document.body.appendChild(div)
+
+</script>
+</html>
