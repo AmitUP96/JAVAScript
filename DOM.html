@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 2 </title>
+</head>
+<body class="bg-black" >
+    <div>
+        <ul class="language"> 
+            <li>JavaScript</li>
+        </ul>
+    </div>
+</body>
+
+<script>
+    function addlanguage(langName){
+       const li = document.createElement('li')
+       li.innerHTML = `${langName}`
+       document.querySelector('.language').appendChild(li)
+    }
+    addlanguage("python")
+    addlanguage("Typescript")
+
+  // Edit
+  const editlang = document.querySelector("li:nth-child(2)")
+  editlang.innerHTML = "java"
+ // remove
+//  const remvlang = document.querySelector("li:nth-child(3)")
+//  remvlang.remove() 
+
+</script>
+</html>
